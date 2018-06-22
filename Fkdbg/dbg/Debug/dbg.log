@@ -1,0 +1,17 @@
+﻿  CmyDebug.cpp
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(1544): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(3190): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(175): warning C4244: “参数”: 从“UInt64”转换到“SIZE_T”，可能丢失数据
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(176): warning C4477: “wprintf”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“ATL::CString”
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(499): warning C4474: scanf_s: 格式字符串中传递的参数太多
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(499): note: 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(613): warning C4477: “printf”: 格式字符串“%08X”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“PVOID”
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(1051): warning C4838: 从“int”转换到“SHORT”需要收缩转换
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(1087): warning C4477: “printf”: 格式字符串“%08X”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“BYTE *”
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(1199): warning C4018: “<”: 有符号/无符号不匹配
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(1209): warning C4018: “<”: 有符号/无符号不匹配
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(1234): warning C4018: “<”: 有符号/无符号不匹配
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(1243): warning C4018: “<”: 有符号/无符号不匹配
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(1138): warning C4715: “CmyDebug::ModuleToAddr”: 不是所有的控件路径都返回值
+  dbg.vcxproj -> F:\1.调试器项目\dbg\Debug\dbg.exe
+  dbg.vcxproj -> F:\1.调试器项目\dbg\Debug\dbg.pdb (Full PDB)

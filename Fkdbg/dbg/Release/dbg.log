@@ -1,0 +1,23 @@
+﻿  stdafx.cpp
+  Cbp_About.cpp
+  Cdbg_Info.cpp
+  CmyDebug.cpp
+CmyDebug.cpp(158): warning C4244: “参数”: 从“UInt64”转换到“SIZE_T”，可能丢失数据
+CmyDebug.cpp(159): warning C4477: “wprintf”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“ATL::CString”
+CmyDebug.cpp(463): warning C4474: scanf_s: 格式字符串中传递的参数太多
+  CmyDebug.cpp(463): note: 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+CmyDebug.cpp(577): warning C4477: “printf”: 格式字符串“%08X”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“PVOID”
+CmyDebug.cpp(1015): warning C4838: 从“int”转换到“SHORT”需要收缩转换
+CmyDebug.cpp(1051): warning C4477: “printf”: 格式字符串“%08X”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“BYTE *”
+  dbg.cpp
+dbg.cpp(53): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+dbg.cpp(57): warning C4806: “&”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+dbg.cpp(57): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+dbg.cpp(18): warning C4101: “dwSize”: 未引用的局部变量
+  正在生成代码
+  139 of 514 functions (27.0%) were compiled, the rest were copied from previous compilation.
+    68 functions were new in current compilation
+    26 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  dbg.vcxproj -> F:\1.调试器项目\dbg\Release\dbg.exe
+  dbg.vcxproj -> F:\1.调试器项目\dbg\Release\dbg.pdb (Full PDB)

@@ -1,0 +1,185 @@
+﻿  dbg.cpp
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(1544): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(3190): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+f:\1.调试器项目\dbg\dbg\dbg.cpp(30): warning C4311: “类型转换”: 从“HMODULE”到“DWORD”的指针截断
+f:\1.调试器项目\dbg\dbg\dbg.cpp(30): warning C4302: “类型转换”: 从“HMODULE”到“DWORD”截断
+f:\1.调试器项目\dbg\dbg\dbg.cpp(33): warning C4312: “类型转换”: 从“DWORD”转换到更大的“PIMAGE_DOS_HEADER”
+f:\1.调试器项目\dbg\dbg\dbg.cpp(36): warning C4312: “类型转换”: 从“unsigned long”转换到更大的“PIMAGE_NT_HEADERS”
+f:\1.调试器项目\dbg\dbg\dbg.cpp(41): warning C4312: “类型转换”: 从“unsigned long”转换到更大的“PIMAGE_IMPORT_DESCRIPTOR”
+f:\1.调试器项目\dbg\dbg\dbg.cpp(48): warning C4312: “类型转换”: 从“unsigned long”转换到更大的“char *”
+f:\1.调试器项目\dbg\dbg\dbg.cpp(54): warning C4312: “类型转换”: 从“unsigned long”转换到更大的“PIMAGE_THUNK_DATA”
+f:\1.调试器项目\dbg\dbg\dbg.cpp(55): warning C4312: “类型转换”: 从“unsigned long”转换到更大的“PIMAGE_THUNK_DATA”
+f:\1.调试器项目\dbg\dbg\dbg.cpp(60): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+f:\1.调试器项目\dbg\dbg\dbg.cpp(64): warning C4311: “类型转换”: 从“const char *”到“DWORD”的指针截断
+f:\1.调试器项目\dbg\dbg\dbg.cpp(64): warning C4302: “类型转换”: 从“const char *”到“DWORD”截断
+f:\1.调试器项目\dbg\dbg\dbg.cpp(64): warning C4806: “&”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+f:\1.调试器项目\dbg\dbg\dbg.cpp(64): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+f:\1.调试器项目\dbg\dbg\dbg.cpp(72): warning C4311: “类型转换”: 从“LPVOID”到“DWORD”的指针截断
+f:\1.调试器项目\dbg\dbg\dbg.cpp(72): warning C4302: “类型转换”: 从“LPVOID”到“DWORD”截断
+f:\1.调试器项目\dbg\dbg\dbg.cpp(96): warning C4311: “类型转换”: 从“LPVOID”到“DWORD”的指针截断
+f:\1.调试器项目\dbg\dbg\dbg.cpp(96): warning C4302: “类型转换”: 从“LPVOID”到“DWORD”截断
+f:\1.调试器项目\dbg\dbg\dbg.cpp(25): warning C4101: “dwSize”: 未引用的局部变量
+  CmyDebug.cpp
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(1544): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(3190): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(109): error C2664: “BOOL ReadProcessMemory(HANDLE,LPCVOID,LPVOID,SIZE_T,SIZE_T *)”: 无法将参数 5 从“DWORD *”转换为“SIZE_T *”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(109): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(159): warning C4477: “wprintf”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“ATL::CString”
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(470): error C2664: “BOOL WriteProcessMemory(HANDLE,LPVOID,LPCVOID,SIZE_T,SIZE_T *)”: 无法将参数 5 从“DWORD *”转换为“SIZE_T *”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(470): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(494): error C2664: “BOOL WriteProcessMemory(HANDLE,LPVOID,LPCVOID,SIZE_T,SIZE_T *)”: 无法将参数 5 从“DWORD *”转换为“SIZE_T *”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(494): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(211): warning C4477: “scanf_s”: 格式字符串“%X”需要类型“unsigned int *”的参数，但可变参数 1 拥有了类型“SIZE_T *”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(211): note: 请考虑在格式字符串中使用“%llX”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(211): note: 请考虑在格式字符串中使用“%IX”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(211): note: 请考虑在格式字符串中使用“%I64X”
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(229): warning C4477: “scanf_s”: 格式字符串“%X”需要类型“unsigned int *”的参数，但可变参数 1 拥有了类型“SIZE_T *”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(229): note: 请考虑在格式字符串中使用“%llX”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(229): note: 请考虑在格式字符串中使用“%IX”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(229): note: 请考虑在格式字符串中使用“%I64X”
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(246): warning C4477: “scanf_s”: 格式字符串“%X”需要类型“unsigned int *”的参数，但可变参数 1 拥有了类型“SIZE_T *”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(246): note: 请考虑在格式字符串中使用“%llX”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(246): note: 请考虑在格式字符串中使用“%IX”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(246): note: 请考虑在格式字符串中使用“%I64X”
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(280): warning C4477: “scanf_s”: 格式字符串“%X”需要类型“unsigned int *”的参数，但可变参数 1 拥有了类型“SIZE_T *”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(280): note: 请考虑在格式字符串中使用“%llX”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(280): note: 请考虑在格式字符串中使用“%IX”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(280): note: 请考虑在格式字符串中使用“%I64X”
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(314): warning C4477: “scanf_s”: 格式字符串“%X”需要类型“unsigned int *”的参数，但可变参数 1 拥有了类型“SIZE_T *”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(314): note: 请考虑在格式字符串中使用“%llX”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(314): note: 请考虑在格式字符串中使用“%IX”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(314): note: 请考虑在格式字符串中使用“%I64X”
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(405): warning C4477: “printf”: 格式字符串“%4x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“SIZE_T”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(405): note: 请考虑在格式字符串中使用“%llx”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(405): note: 请考虑在格式字符串中使用“%Ix”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(405): note: 请考虑在格式字符串中使用“%I64x”
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(411): warning C4477: “printf”: 格式字符串“%4x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“SIZE_T”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(411): note: 请考虑在格式字符串中使用“%llx”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(411): note: 请考虑在格式字符串中使用“%Ix”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(411): note: 请考虑在格式字符串中使用“%I64x”
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(431): warning C4477: “printf”: 格式字符串“%4x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“SIZE_T”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(431): note: 请考虑在格式字符串中使用“%llx”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(431): note: 请考虑在格式字符串中使用“%Ix”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(431): note: 请考虑在格式字符串中使用“%I64x”
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(445): warning C4477: “scanf_s”: 格式字符串“%X”需要类型“unsigned int *”的参数，但可变参数 1 拥有了类型“SIZE_T *”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(445): note: 请考虑在格式字符串中使用“%llX”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(445): note: 请考虑在格式字符串中使用“%IX”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(445): note: 请考虑在格式字符串中使用“%I64X”
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(463): warning C4477: “scanf_s”: 格式字符串“%x”需要类型“unsigned int *”的参数，但可变参数 1 拥有了类型“SIZE_T *”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(463): note: 请考虑在格式字符串中使用“%llx”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(463): note: 请考虑在格式字符串中使用“%Ix”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(463): note: 请考虑在格式字符串中使用“%I64x”
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(463): warning C4474: scanf_s: 格式字符串中传递的参数太多
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(463): note: 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(474): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“SIZE_T”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(474): note: 请考虑在格式字符串中使用“%llx”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(474): note: 请考虑在格式字符串中使用“%Ix”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(474): note: 请考虑在格式字符串中使用“%I64x”
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(585): error C2039: “Eip”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(585): error C2660: “CmyDebug::showDisasm”: 函数不接受 2 个参数
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(605): error C2664: “BOOL WriteProcessMemory(HANDLE,LPVOID,LPCVOID,SIZE_T,SIZE_T *)”: 无法将参数 5 从“DWORD *”转换为“SIZE_T *”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(605): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(618): error C2039: “Eip”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(661): error C2664: “BOOL WriteProcessMemory(HANDLE,LPVOID,LPCVOID,SIZE_T,SIZE_T *)”: 无法将参数 5 从“DWORD *”转换为“SIZE_T *”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(661): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(673): error C2039: “Eip”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(721): error C2039: “Eax”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(723): error C2039: “Ebx”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(725): error C2039: “Ecx”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(727): error C2039: “Edx”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(729): error C2039: “Ebp”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(731): error C2039: “Esp”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(733): error C2039: “Esi”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(735): error C2039: “Edi”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(577): warning C4477: “printf”: 格式字符串“%08X”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“PVOID”
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(577): warning C4313: “printf”: 格式字符串中的“%X”与“PVOID”类型的参数 1 冲突
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(639): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“SIZE_T”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(639): note: 请考虑在格式字符串中使用“%llx”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(639): note: 请考虑在格式字符串中使用“%Ix”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(639): note: 请考虑在格式字符串中使用“%I64x”
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(689): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“SIZE_T”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(689): note: 请考虑在格式字符串中使用“%llx”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(689): note: 请考虑在格式字符串中使用“%Ix”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(689): note: 请考虑在格式字符串中使用“%I64x”
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(752): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“SIZE_T”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(752): note: 请考虑在格式字符串中使用“%llx”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(752): note: 请考虑在格式字符串中使用“%Ix”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(752): note: 请考虑在格式字符串中使用“%I64x”
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(817): error C2664: “BOOL WriteProcessMemory(HANDLE,LPVOID,LPCVOID,SIZE_T,SIZE_T *)”: 无法将参数 5 从“DWORD *”转换为“SIZE_T *”
+  f:\1.调试器项目\dbg\dbg\cmydebug.cpp(817): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(948): error C2039: “Eax”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(948): error C2660: “CmyDebug::WriteChar”: 函数不接受 4 个参数
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(949): error C2039: “Ecx”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(949): error C2660: “CmyDebug::WriteChar”: 函数不接受 4 个参数
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(950): error C2039: “Edx”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(950): error C2660: “CmyDebug::WriteChar”: 函数不接受 4 个参数
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(951): error C2039: “Ebx”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(951): error C2660: “CmyDebug::WriteChar”: 函数不接受 4 个参数
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(952): error C2039: “Esp”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(952): error C2660: “CmyDebug::WriteChar”: 函数不接受 4 个参数
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(953): error C2039: “Ebp”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(953): error C2660: “CmyDebug::WriteChar”: 函数不接受 4 个参数
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(954): error C2039: “Esi”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(954): error C2660: “CmyDebug::WriteChar”: 函数不接受 4 个参数
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(955): error C2039: “Edi”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(955): error C2660: “CmyDebug::WriteChar”: 函数不接受 4 个参数
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(956): error C2039: “Eip”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(956): error C2660: “CmyDebug::WriteChar”: 函数不接受 4 个参数
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(977): error C2039: “Esp”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(977): error C2660: “ReadProcessMemory”: 函数不接受 4 个参数
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(1015): warning C4838: 从“int”转换到“SHORT”需要收缩转换
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(1051): warning C4477: “printf”: 格式字符串“%08X”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“BYTE *”
+f:\1.调试器项目\dbg\dbg\cmydebug.cpp(1051): warning C4313: “printf”: 格式字符串中的“%X”与“BYTE *”类型的参数 1 冲突
+  Cdbg_Info.cpp
+f:\1.调试器项目\dbg\dbg\cdbg_info.cpp(25): error C2039: “Eip”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cdbg_info.cpp(26): error C2039: “Eax”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cdbg_info.cpp(27): error C2039: “Ecx”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cdbg_info.cpp(28): error C2039: “Edx”: 不是“_CONTEXT”的成员
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(3563): note: 参见“_CONTEXT”的声明
+f:\1.调试器项目\dbg\dbg\cdbg_info.cpp(33): error C2664: “BOOL ReadProcessMemory(HANDLE,LPCVOID,LPVOID,SIZE_T,SIZE_T *)”: 无法将参数 5 从“DWORD *”转换为“SIZE_T *”
+  f:\1.调试器项目\dbg\dbg\cdbg_info.cpp(33): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+f:\1.调试器项目\dbg\dbg\cdbg_info.cpp(24): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+  f:\1.调试器项目\dbg\dbg\cdbg_info.cpp(24): note: 占位符和其参数预计 4 可变参数，但提供的却是 0 参数
+  f:\1.调试器项目\dbg\dbg\cdbg_info.cpp(24): note: 缺失的可变参数 1 为格式字符串“%08X”所需
+  Cbp_About.cpp
+f:\1.调试器项目\dbg\dbg\cbp_about.cpp(136): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“SIZE_T”
+  f:\1.调试器项目\dbg\dbg\cbp_about.cpp(136): note: 请考虑在格式字符串中使用“%llx”
+  f:\1.调试器项目\dbg\dbg\cbp_about.cpp(136): note: 请考虑在格式字符串中使用“%Ix”
+  f:\1.调试器项目\dbg\dbg\cbp_about.cpp(136): note: 请考虑在格式字符串中使用“%I64x”
+f:\1.调试器项目\dbg\dbg\cbp_about.cpp(174): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“SIZE_T”
+  f:\1.调试器项目\dbg\dbg\cbp_about.cpp(174): note: 请考虑在格式字符串中使用“%llx”
+  f:\1.调试器项目\dbg\dbg\cbp_about.cpp(174): note: 请考虑在格式字符串中使用“%Ix”
+  f:\1.调试器项目\dbg\dbg\cbp_about.cpp(174): note: 请考虑在格式字符串中使用“%I64x”
+f:\1.调试器项目\dbg\dbg\cbp_about.cpp(236): error C2664: “BOOL ReadProcessMemory(HANDLE,LPCVOID,LPVOID,SIZE_T,SIZE_T *)”: 无法将参数 5 从“DWORD *”转换为“SIZE_T *”
+  f:\1.调试器项目\dbg\dbg\cbp_about.cpp(236): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+f:\1.调试器项目\dbg\dbg\cbp_about.cpp(241): error C2664: “BOOL WriteProcessMemory(HANDLE,LPVOID,LPCVOID,SIZE_T,SIZE_T *)”: 无法将参数 5 从“DWORD *”转换为“SIZE_T *”
+  f:\1.调试器项目\dbg\dbg\cbp_about.cpp(241): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+f:\1.调试器项目\dbg\dbg\cbp_about.cpp(270): error C2664: “BOOL ReadProcessMemory(HANDLE,LPCVOID,LPVOID,SIZE_T,SIZE_T *)”: 无法将参数 5 从“DWORD *”转换为“SIZE_T *”
+  f:\1.调试器项目\dbg\dbg\cbp_about.cpp(270): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+f:\1.调试器项目\dbg\dbg\cbp_about.cpp(275): error C2664: “BOOL WriteProcessMemory(HANDLE,LPVOID,LPCVOID,SIZE_T,SIZE_T *)”: 无法将参数 5 从“DWORD *”转换为“SIZE_T *”
+  f:\1.调试器项目\dbg\dbg\cbp_about.cpp(275): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+  正在生成代码...
